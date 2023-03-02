@@ -115,10 +115,10 @@ if(isset($message)){
       <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tenetur amet ab optio minus est error libero adipisci numquam ratione.</p>
 
       <div class="bio">
-         <h3 data-aos="zoom-in"> <span>name : </span> sana shaikh </h3>
-         <h3 data-aos="zoom-in"> <span>email : </span> sanashaikh@gmail.com </h3>
-         <h3 data-aos="zoom-in"> <span>address : </span> mumbai, india </h3>
-         <h3 data-aos="zoom-in"> <span>phone : </span> +123-456-7890 </h3>
+         <h3 data-aos="zoom-in"> <span>name : </span> Raman Pandey </h3>
+         <h3 data-aos="zoom-in"> <span>email : </span> rama456a@gmail.com </h3>
+         <h3 data-aos="zoom-in"> <span>address : </span> Albuquerque,NM </h3>
+         <h3 data-aos="zoom-in"> <span>phone : </span> +15054479065 </h3>
          <h3 data-aos="zoom-in"> <span>age : </span> 22 years </h3>
          <h3 data-aos="zoom-in"> <span>experience : </span> 2+ years </h3>
       </div>
