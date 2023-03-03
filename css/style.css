@@ -22,7 +22,7 @@
 }
 
 *::selection{
-   background-color: var(--cyan);
+   background-color: var(--black);
    color:var(--maroon);
 }
 
