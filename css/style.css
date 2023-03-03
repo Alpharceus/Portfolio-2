@@ -325,47 +325,94 @@ section{
    line-height: 2;
 }
 
-.services .box-container{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-   gap:1.5rem;
-   align-items: flex-start;
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+.services .title::before,
+.teams .title::before{
+    background: #fff;
+}
+.services .title::after,
+.teams .title::after{
+    background: #111;
+    content: "What I can do";
 }
 
-.services .box-container .box{
-   padding:3rem 2rem;
-   border:var(--border-light);
-
+.wrapper{
+  display: grid;
+  margin: 50px 30px auto;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
 }
-
-.services .box-container .box i{
-   font-size: 4rem;
-   margin-bottom: 2rem;
+@media (max-width: 500px) {
+  .wrapper{
+    margin: 20px auto;
+  }
 }
-
-.services .box-container .box h3{
-   margin:1rem 0;
-   font-size: 2rem;
-   padding:1.5rem;
-   background-color: var(--maroon);
-   font-weight: normal;
+.wrapper .box{
+  width: 350px;
+  margin: 50 auto;
+  position: relative;
+  perspective: 500px;
 }
-
-.services .box-container .box p{
-   line-height: 2;
-   font-size: 1.7rem;
+.wrapper .box .front-face{
+  background: #fff;
+  height: 220px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
 }
-
-.services .box-container .box:hover{
-   background-color: var(--cyan);
+.box .front-face .icon{
+  height: 80px;
 }
-
-.services .box-container .box:hover i{
-   color:var(--white);
+.box .front-face .icon i{
+  font-size: 65px;
 }
-
-.services .box-container .box:hover p{
-   color:var(--white);
+.box .front-face span,
+.box .back-face span{
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .front-face .icon i,
+.box .front-face span{
+  background: linear-gradient(-135deg, crimson, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box .back-face{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 220px;
+  width: 100%;
+  padding: 30px;
+  color: #fff;
+  opacity: 0;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  background: linear-gradient(-135deg, crimson, #000);
+  transform: translateY(110px) rotateX(-90deg);
+  box-shadow: 0px 5px 20px 0px rgba(0, 81, 250, 0.1);
+  transition: all 0.5s ease;
+}
+.box .back-face p{
+  margin-top: 10px;
+  text-align: justify;
+}
+.box:hover .back-face{
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+.box:hover .front-face{
+  opacity: 0;
+  transform: translateY(-110px) rotateX(90deg);
 }
 
 .portfolio .box-container{
