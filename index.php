@@ -204,51 +204,99 @@ if(isset($message)){
 
 <!-- services section starts  -->
 
-<section class="services" id="services">
-
-   <h1 class="heading" data-aos="fade-up"> <span>services</span> </h1>
-
-   <div class="box-container">
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-code"></i>
-         <h3>web development</h3>
-         <p>To be edited.</p>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-paint-brush"></i>
-         <h3>graphic design</h3>
-         <p>To be edited.</p>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fab fa-bootstrap"></i>
-         <h3>bootstrap</h3>
-         <p>To be edited.</p>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-chart-line"></i>
-         <h3>seo marketing</h3>
-         <p>To be edited.</p>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fas fa-bullhorn"></i>
-         <h3>digital marketing</h3>
-         <p>To be edited.</p>
-      </div>
-
-      <div class="box" data-aos="zoom-in">
-         <i class="fab fa-wordpress"></i>
-         <h3>wordpress</h3>
-         <p>To be edited.</p>
-      </div>
-
-   </div>
-
-</section>
+ <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="serv-content">
+				<div class="wrapper">
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-code"></i>
+					   </div>
+					   <span>Coding</span>
+					</div>
+					<div class="back-face">
+					   <span>Coding</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-chart-line"></i>
+					   </div>
+					   <span>Data Analysis</span>
+					</div>
+					<div class="back-face">
+					   <span>Data Analysis</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-galaxy"></i>
+					   </div>
+					   <span>Astrophysics</span>
+					</div>
+					<div class="back-face">
+					   <span>Astrophysics</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-gamepad-alt"></i>
+					   </div>
+					   <span>Game Development</span>
+					</div>
+					<div class="back-face">
+					   <span>Game Development</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-infinity"></i>
+					   </div>
+					   <span>Mathematics</span>
+					</div>
+					<div class="back-face">
+					   <span>Mathematics</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				 <div class="box">
+					<div class="front-face">
+					   <div class="icon">
+						  <i class="fas fa-user-robot"></i>
+					   </div>
+					   <span>robotics & AI</span>
+					</div>
+					<div class="back-face">
+					   <span>robotics & AI</span>
+					   <p>
+						  to be edited.
+					   </p>
+					</div>
+				 </div>
+				</div>
+			</div>
+		</div>
+    </section>
 
 <!-- services section ends -->
 
