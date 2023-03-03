@@ -2,6 +2,8 @@
 
 :root{
    --yellow:#ffcc0d;
+   --maroon:#ba0c2f;
+   --cyan:#007a86;
    --black:#000;
    --white:#fff;
    --light-bg:#eee;
@@ -21,7 +23,7 @@
 
 *::selection{
    background-color: var(--black);
-   color:var(--yellow);
+   color:var(--maroon);
 }
 
 *::-webkit-scrollbar{
@@ -34,7 +36,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-   background-color: var(--yellow);
+   background-color: var(--maroon);
 }
 
 html{
@@ -75,7 +77,7 @@ section{
    top:2rem;
    max-width: 1200px;
    margin:0 auto;
-   background-color: var(--yellow);
+   background-color: var(--maroon);
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -98,7 +100,7 @@ section{
 }
 
 .btn:hover{
-   background-color: var(--black);
+   background-color: var(--cyan);
    color:var(--white);
 }
 
@@ -140,7 +142,7 @@ section{
 
 .header .navbar a.active,
 .header .navbar a:hover{
-   background-color: var(--yellow);
+   background-color: var(--maroon);
 }
 
 .header .follow a{
@@ -162,7 +164,7 @@ section{
    width: 5rem;
    font-size: 2.5rem;
    cursor: pointer;
-   background-color: var(--black);
+   background-color: var(--cyan);
    color:var(--white);
 }
 
@@ -201,7 +203,7 @@ section{
 .home .content span{
    display: inline-block;
    padding:1rem 2rem;
-   background-color: var(--yellow);
+   background-color: var(--maroon);
    font-size: 2.5rem;
    margin:1rem 0;
 }
@@ -260,7 +262,7 @@ section{
    justify-content: space-between;
    font-size: 2rem;
    padding:1rem 2rem;
-   background-color: var(--yellow);
+   background-color: var(--maroon);
 }
 
 .about .skills .progress .bar span{
@@ -296,7 +298,7 @@ section{
 .about .edu-exp .row .box-container .title{
    padding:1.5rem;
    font-size: 3rem;
-   background-color: var(--yellow);
+   background-color: var(--maroon);
 }
 
 .about .edu-exp .row .box-container .box{
@@ -345,7 +347,7 @@ section{
    margin:1rem 0;
    font-size: 2rem;
    padding:1.5rem;
-   background-color: var(--yellow);
+   background-color: var(--maroon);
    font-weight: normal;
 }
 
@@ -355,7 +357,7 @@ section{
 }
 
 .services .box-container .box:hover{
-   background-color: var(--black);
+   background-color: var(--cyan);
 }
 
 .services .box-container .box:hover i{
@@ -437,7 +439,7 @@ section{
    width: 7rem;
    line-height: 7rem;
    color:var(--white);
-   background-color: var(--black);
+   background-color: var(--cyan);
    margin-bottom: .5rem;
 }
 
@@ -453,14 +455,14 @@ section{
 
 .credit{
    text-align: center;
-   background-color: var(--black);
+   background-color: var(--cyan);
    padding:3rem;
    font-size: 2rem;
    color:var(--white);
 }
 
 .credit span{
-   color:var(--yellow);
+   color:var(--maroon);
 }
 
 
