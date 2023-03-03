@@ -392,7 +392,7 @@ if(isset($message)){
 
 <!-- contact section ends -->
 
-<div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>mr. web designer</span> </div>
+<div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>Raman Pandey 2022</span> </div>
 
 
 
