@@ -18,11 +18,11 @@
    outline: none; border:none;
    text-decoration: none;
    text-transform: capitalize;
-   color:var(--black);
+   color:var(--cyan);
 }
 
 *::selection{
-   background-color: var(--black);
+   background-color: var(--cyan);
    color:var(--maroon);
 }
 
